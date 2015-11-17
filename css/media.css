@@ -1,0 +1,85 @@
+@media (max-width: 980px) {
+
+    #logo{
+        font-size: 6vw;
+    }
+
+    #landing-first{
+        height: 35vh;
+    }
+
+    #home-message{
+        margin-top: 10vh;
+        text-align: center;
+        font-size: 9vw;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+
+    #home-sub-message{
+        text-align: center;
+        font-size: 4.5vw;
+        color: whitesmoke;
+        font-weight: 400;
+    }
+
+    #landing-second{
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+        background-color: #ECF0F1;
+    }
+
+    .know-more{
+        margin: auto;
+        text-align: center;
+        display: block;
+        border: 1px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .know-more-picto{
+        width: 20vw;
+        margin-bottom: 10px;
+    }
+
+    .know-more-picto-bike{
+        width: 21vw;
+        margin-bottom: 10px;
+    }
+
+    .know-more-title{
+        text-align: center;
+        font-size: 4vw;
+        color: #3E3E3E;
+    }
+
+    .know-more-content{
+        padding-top: 10px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        font-size: 2.5vw;
+        color: #6D6D6D;
+        line-height: 7vw;
+    }
+
+    #iphone-title{
+        text-align: center;
+        font-size: 7vw;
+        color: #3E3E3E;
+        margin-bottom: 4vh;
+    }
+
+    #image-iphone{
+        width: 80vw;
+        display: block;
+        margin: auto;
+    }
+
+    .image-download{
+        height: 6vh;
+        padding: 20px;
+        margin-top: 4vh;
+    }
+}

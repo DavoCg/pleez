@@ -1,0 +1,166 @@
+#landing-first{
+     height: 50vh;
+     //background-image: url('../images/bgmountain.jpg');
+     //background-repeat: no-repeat;
+     //background-position: 50% 75%;
+
+    background-image: -ms-linear-gradient(top, #3DB8D9 0%, #347EB8 100%);
+    background-image: -moz-linear-gradient(top, #3DB8D9 0%, #347EB8 100%);
+    background-image: -o-linear-gradient(top, #3DB8D9 0%, #347EB8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3DB8D9), color-stop(100, #347EB8));
+    background-image: -webkit-linear-gradient(top, #3DB8D9 0%, #347EB8 100%);
+    background-image: linear-gradient(to bottom, #3DB8D9 0%, #347EB8 100%);
+}
+
+#home-message{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3.5vw;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+#home-sub-message{
+    text-align: center;
+    font-size: 1.4vw;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+#landing-second{
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+    background-color: #ECF0F1;
+    border: solid rgba(169, 169, 169, 0.4) 1px;
+}
+
+#know-more-container{
+    text-align: center;
+}
+
+.know-more{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    width: 22vw;
+}
+
+.know-more-picto{
+    width: 5.6vw;
+    margin-bottom: 10px;
+}
+
+.know-more-picto-bike{
+    width: 6.5vw;
+    margin-bottom: 10px;
+}
+
+.know-more-title{
+    text-align: center;
+    font-size: 1.4vw;
+    color: #3E3E3E;
+}
+
+.know-more-content{
+    padding-top: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9vw;
+    color: #6D6D6D;
+    line-height: 1.4vw;
+}
+
+#landing-third{
+    padding-top: 6vh;
+    padding-bottom: 8vh;
+    border: solid rgba(169, 169, 169, 0.4) 1px;
+}
+
+#iphone-title{
+    text-align: center;
+    font-size: 1.8vw;
+    color: #3E3E3E;
+    margin-bottom: 4vh;
+}
+
+#image-iphone{
+    width: 30vw;
+    display: block;
+    margin: auto;
+}
+
+#image-download-container{
+    text-align: center;
+}
+
+.image-download{
+    height: 5vh;
+    padding: 20px;
+    margin-top: 4vh;
+}
+
+.image-download:hover{
+    cursor: pointer;
+}
+
+.landing-navbar{
+    color: white;
+}
+
+#logo{
+
+}
+
+#know-more-button{
+    border: solid 1px white;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1em;
+}
+
+#know-more-button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#landing-trust{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#landing-trust-images{
+    display: inline-block;
+    text-align: center;
+}
+
+.landing-trust-image{
+    display: inline-block;
+    width: 12%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    -webkit-filter: opacity(.6);
+    filter: opacity(.6);
+
+    transition: all .1s ease-in-out;
+}
+
+.landing-trust-image:hover{
+    -webkit-filter: opacity(.8);
+    filter: opacity(.8);
+    cursor: pointer;
+    -webkit-transform: scale(1.15); /* Safari */
+    transform: scale(1.15);
+}
+
+
+
+#landing-trust-title{
+    text-align: center;
+    font-size: 2.5vh;
+    color: #3E3E3E;
+    margin-bottom: 20px;
+}
